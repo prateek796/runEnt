@@ -24,7 +24,7 @@ const HamBurger = ({ open }) => {
 
   return (
     <Pressable
-      className="flex justify-between flex-row h-16 bg-yellow-300"
+      className="flex justify-between flex-row h-16"
       style={[
         {
             height: isOpen ? 200:64
